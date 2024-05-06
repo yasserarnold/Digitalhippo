@@ -191,7 +191,7 @@ const { docs: orders } = await payload.find({
 
 const [order] = orders
 
-if (!user) return res.status(404).json({ error: 'No such order exists.' })
+if (!order) return res.status(404).json({ error: 'No such order exists.' })
 
 await payload.update({
     collection: 'orders',
