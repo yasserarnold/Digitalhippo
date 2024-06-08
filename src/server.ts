@@ -23,9 +23,7 @@ const createContext = ({
   res,
 })
 
-export type ExpressContext = inferAsyncReturnType<
-  typeof createContext
->
+export type ExpressContext = Awaited<ReturnType<typeof createContext>>
 
 export type WebhookRequest = IncomingMessage & {
   rawBody: Buffer
