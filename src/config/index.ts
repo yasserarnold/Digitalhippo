@@ -1,44 +1,44 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'UI Kits',
-    value: 'ui_kits' as const,
+    label: "Faith Dictionary",
+    value: "faith_dict" as const,
     featured: [
       {
-        name: 'Editor picks',
-        href: `/products?category=ui_kits`,
-        imageSrc: '/nav/ui-kits/mixed.jpg',
+        name: "Brand picks",
+        href: `/products?category=faith_dict`,
+        imageSrc: "/nav/faith_dict/mixed.jpg",
       },
       {
-        name: 'New Arrivals',
-        href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
+        name: "New Additions",
+        href: "/products?category=faith_dict&sort=desc",
+        imageSrc: "/nav/faith_dict/blue.jpg",
       },
       {
-        name: 'Bestsellers',
-        href: '/products?category=ui_kits',
-        imageSrc: '/nav/ui-kits/purple.jpg',
+        name: "Bestsellers",
+        href: "/products?category=faith_dict",
+        imageSrc: "/nav/faith_dict/purple.jpg",
       },
     ],
   },
   {
-    label: 'Icons',
-    value: 'icons' as const,
+    label: "Christ Identity",
+    value: "christ_id" as const,
     featured: [
       {
-        name: 'Favorite Icon Picks',
-        href: `/products?category=icons`,
-        imageSrc: '/nav/icons/picks.jpg',
+        name: "Favorite Brand Picks",
+        href: `/products?category=christ_id`,
+        imageSrc: "/nav/christ_id/picks.jpg",
       },
       {
-        name: 'New Arrivals',
-        href: '/products?category=icons&sort=desc',
-        imageSrc: '/nav/icons/new.jpg',
+        name: "New Addition",
+        href: "/products?category=christ_id&sort=desc",
+        imageSrc: "/nav/christ_id/new.jpg",
       },
       {
-        name: 'Bestselling Icons',
-        href: '/products?category=icons',
-        imageSrc: '/nav/icons/bestsellers.jpg',
+        name: "Bestsellers",
+        href: "/products?category=christ_id",
+        imageSrc: "/nav/christ_id/bestsellers.jpg",
       },
     ],
   },
-]
+];
